@@ -163,3 +163,50 @@ a {
     font-weight: bolder;
     margin-right: 50px;
 }
+
+/* Call to Action */
+
+.action {
+    display: flex;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(148,146,230,0.9094231442577031) 49%, rgba(8,6,42,1) 100%);
+    justify-content: center;
+    padding: 150px 0;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 10px 5px rgb(179, 141, 179);
+    padding: 45px;
+    border-radius: 15px;
+    width: 800px;
+}
+
+.action-container .text {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.action-container .text span {
+    display: flex;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+.sign-up {
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 1px 1px 8px 1px rgb(111, 106, 106);
+}
+
+.sign-up button {
+    border: none;
+    font-size: 30px;
+    color: white;
+    border-radius: 15px;
+    padding: 15px 30px;
+    background-color: rgba(60, 60, 168, 0.831)
+}
