@@ -92,3 +92,45 @@ a {
     padding: 15px 30px;
     background-color: rgba(60, 60, 168, 0.831)
 }
+
+/* Information */
+
+.info {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 75px 0;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.img-subtext {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+}
+
+.info-container .subtext {
+    margin-top: 15px;
+    font-weight: lighter;
+}
+
+.info-container img {
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px #5b6675;
+}
