@@ -170,17 +170,17 @@ a {
 
 .action {
     display: flex;
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(148,146,230,0.9094231442577031) 49%, rgba(8,6,42,1) 100%);
-    justify-content: center;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(225,225,225,1) 100%);    justify-content: center;
     padding: 150px 0;
+    box-shadow: 1px 1px 5px 5px lightgray
 }
 
 .action-container {
     display: flex;
     justify-content: space-between;
     background-color: whitesmoke;
-    box-shadow: 1px 1px 10px 5px rgb(179, 141, 179);
+    box-shadow: 1px 1px 10px 5px rgb(133, 130, 133);
     padding: 45px;
     border-radius: 15px;
     width: 800px;
@@ -211,4 +211,19 @@ a {
     border-radius: 15px;
     padding: 15px 30px;
     background-color: rgba(60, 60, 168, 0.831)
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.footer .text {
+    font-size: 16px;
+    font-weight: 300;
+    color: #E5E7EB;
 }
